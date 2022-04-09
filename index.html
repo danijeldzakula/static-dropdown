@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title -->
+    <title>Dropdown menu with vanilla JavaScript</title>
+    <!-- Inject styles -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="grid grid-columns-auto items-end">
+
+                <nav class="nav">
+                    <ul class="list-items">
+                        <li class="list-item dropdown" tabindex="0" data-dropdown="false">
+                            <button class="button" tabindex="0" data-dropdown-button="false">Account</button>
+                            <ul class="submenu" data-dropdown-collapse>
+                                <li>
+                                    <a href="" class="nav-link">My Profile</a>
+                                </li>
+                                <li>
+                                    <a href="" class="nav-link">Notifications</a>
+                                </li>
+                                <li>
+                                    <a href="" class="nav-link">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="" class="nav-link">Settings</a>
+                                </li>
+                                <li>
+                                    <a href="" class="nav-link">Logout</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>                                  
+            </div>
+        </div>
+    </header>
+    <!-- end / Header -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <p class="p text-center mb-4 c-silver">Follow me:</p>
+                <ul class="ul socials">
+                    <li class="links">
+                        <a href="https://www.linkedin.com/in/danijel-dzakula-227530128/" target="_blank" class="link">
+                            <span class="tooltip">Linkedin</span>
+                            <span class="link-icon" style="background-image: url('./img/icon-linkedin.png');"></span>
+                        </a>
+                    </li>
+                    <li class="links">
+                        <a href="https://github.com/danijeldzakula" target="_blank" class="link">
+                            <span class="tooltip">Github</span>
+                            <span class="link-icon" style="background-image: url('./img/icon-github.png');"></span>
+                        </a>                        
+                    </li>
+                    <li class="links">
+                        <a href="https://codepen.io/dzakuladanijel" target="_blank" class="link">
+                            <span class="tooltip">Codepen</span>
+                            <span class="link-icon" style="background-image: url('./img/icon-codepen.png');"></span>
+                        </a>                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="p text-center copyright">Copyright &copy; 2022, Powered By: <span>Danijel Dzakula</span>.</p>
+            </div>
+        </div>        
+    </footer>
+    <!-- end / Footer -->
+
+    <!-- Inject script body -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
